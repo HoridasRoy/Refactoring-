@@ -22,9 +22,13 @@ public class Refactable {
 		
 		// print details 
 		
+		printDetails(outstanding);
+
+	}
+
+	public void printDetails(double outstanding) {
 		System.out.println("name: " + name);
 		System.out.println("amount: " + outstanding);
-
 	}
 
 	public void printBanner() {
