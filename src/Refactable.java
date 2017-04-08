@@ -10,9 +10,7 @@ public class Refactable {
 		double outstanding = 0.0;
 		
 		//print banner
-		System.out.println("*****************************");
-		System.out.println("****** Customer Owes ********");
-		System.out.println("*****************************");
+		printBanner();
 		
 		// calculate outstanding
 		while(e.hasMoreElements())
@@ -27,6 +25,12 @@ public class Refactable {
 		System.out.println("name: " + name);
 		System.out.println("amount: " + outstanding);
 
+	}
+
+	public void printBanner() {
+		System.out.println("*****************************");
+		System.out.println("****** Customer Owes ********");
+		System.out.println("*****************************");
 	}
 
 }
